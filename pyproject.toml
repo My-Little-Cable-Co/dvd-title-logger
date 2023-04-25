@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dvd-title-logger"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "dvd_title_logger"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-vlc = "^3.0.18122"
+pysimplegui = "^4.60.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
